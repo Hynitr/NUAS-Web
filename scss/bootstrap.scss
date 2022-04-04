@@ -1,24 +1,22 @@
 /******* Customized Bootstrap ********/
 
-$primary: #06BBCC;
-$light: #F0FBFC;
-$dark: #181d38;
+$primary: #FE5D37;
+$light: #FFF5F3;
+$dark: #103741;
 
 $font-family-base: 'Heebo', sans-serif;
 
-$headings-font-family: 'Nunito', sans-serif;
+$headings-font-family: 'Inter', sans-serif;
 
-$body-color: #52565b;
+$body-bg: $light;
+
+$body-color: #74787C;
 
 $headings-color: $dark;
 
-$headings-font-weight: 700;
-
-$display-font-weight: 800;
-
 $enable-responsive-font-sizes: true;
 
-$border-radius: 0px;
+$border-radius: 10px;
 
 $link-decoration: none;
 

@@ -7,15 +7,14 @@
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="description" content="Welcome to the New Unique Academy">
     <meta content="New Unique Academy" name="keywords">
-
     <!-- Favicon -->
-    <link href="" rel="icon">
+    <link href="img/logo.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@600&family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
+    
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
@@ -32,221 +31,260 @@
 </head>
 
 <body>
-  
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
-        <a href="./" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h4 class="m-0 text-primary">New Unique Academy</h4>
-        </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="./" class="nav-item nav-link">Home</a>
-                <a href="#about" class="nav-item nav-link">About</a>
-                <a href="#gallery" class="nav-item nav-link">Gallery</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">School Portal</a>
-                    <div class="dropdown-menu fade-down m-0">
-                        <a target="_blank" href="https://admin.newuniqueacademy.com" class="dropdown-item">Admin Portal</a>
-                        <a target="_blank" href="https://staff.newuniqueacademy.com" class="dropdown-item">Staff Portal</a>
-                        <a target="_blank" href="https://student.newuniqueacademy.com" class="dropdown-item">Student Portal</a>
+    <div class="container-xxl bg-white p-0">
+
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0">
+            <a href="./" class="navbar-brand">
+                <h1 class="m-0 text-primary"><img src="img/logo.png" class="img-fluid" width="60"/></h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav mx-auto">
+                    <a href="./" class="nav-item nav-link">Home</a>
+                    <a href="#about" class="nav-item nav-link">About Us</a>
+                    <a href="#classes" class="nav-item nav-link">Classes</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">School Portal</a>
+                        <div class="dropdown-menu rounded-0 rounded-bottom border-0 shadow-sm m-0">
+                            <a target="_blank" href="https://admin.newuniqueacademy.com" class="dropdown-item">Admin Portal</a>
+                            <a target="_blank" href="https://staff.newuniqueacademy.com" class="dropdown-item">Staff Portal</a>
+                            <a target="_blank" href="https://student.newuniqueacademy.com" class="dropdown-item">Student Portal</a>
+                        </div>
+                    </div>
+                    <a href="https://wa.link/o9ouaj" target="_blank" class="nav-item nav-link">Contact Us</a>
+                </div>
+                <a href="https://wa.link/o9ouaj" target="_blank"  class="btn btn-primary rounded-pill px-3 d-none d-lg-block">Join Us<i class="fa fa-arrow-right ms-3"></i></a>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 mb-5">
+            <div class="owl-carousel header-carousel position-relative">
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/bg21.jpg" alt="">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .2);">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1 class="display-2 text-white animated slideInDown mb-4">New Unique Academy</h1>
+                                    <p class="fs-5 fw-medium text-white mb-4 pb-2">We educate students to the highest level of academic excellence that expand their potentials to becoming very productive, responsible, ethical and creative future leaders.</p>
+                                    <a target="_blank" href="https://wa.link/o9ouaj" class="btn btn-primary rounded-pill py-sm-3 px-sm-5 me-3 animated slideInLeft">Join us Now</a>
+                                    <a href="#about" class="btn btn-dark rounded-pill py-sm-3 px-sm-5 animated slideInRight">About Us</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <a href="#contact" class="nav-item nav-link">Contact</a>
+               
             </div>
-            <a href="https://wa.link/0979t3" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
-    </nav>
-    <!-- Navbar End -->
+        <!-- Carousel End -->
 
 
-    <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5">
-        <div class="owl-carousel header-carousel position-relative">
-            <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/bg1.jpg" alt="">
-                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-sm-10 col-lg-8">
-                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Welcome to</h5>
-                                <h1 class="display-3 text-white animated slideInDown">New Unique Academy</h1>
-                                <p class="fs-5 text-white mb-4 pb-2">We educate students to the highest level of academic excellence that expand their potentials to becoming very productive, responsible, ethical and creative future leaders.</p>
-                                <a href="https://wa.link/0979t3" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join us Now</a>
+        <!-- Facilities Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h1 class="mb-3">School Facilities</h1>
+                    <p></p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="facility-item">
+                            <div class="facility-icon bg-primary">
+                                <span class="bg-primary"></span>
+                                <i class="fa fa-bus-alt fa-3x text-primary"></i>
+                                <span class="bg-primary"></span>
+                            </div>
+                            <div class="facility-text bg-primary">
+                                <h3 class="text-primary mb-3">School Bus</h3>
+                                <p class="mb-0"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="facility-item">
+                            <div class="facility-icon bg-success">
+                                <span class="bg-success"></span>
+                                <i class="fa fa-futbol fa-3x text-success"></i>
+                                <span class="bg-success"></span>
+                            </div>
+                            <div class="facility-text bg-success">
+                                <h3 class="text-success mb-3">Playground</h3>
+                                <p class="mb-0"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="facility-item">
+                            <div class="facility-icon bg-warning">
+                                <span class="bg-warning"></span>
+                                <i class="fa fa-home fa-3x text-warning"></i>
+                                <span class="bg-warning"></span>
+                            </div>
+                            <div class="facility-text bg-warning">
+                                <h3 class="text-warning mb-3">Healthy Canteen</h3>
+                                <p class="mb-0"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="facility-item">
+                            <div class="facility-icon bg-info">
+                                <span class="bg-info"></span>
+                                <i class="fa fa-chalkboard-teacher fa-3x text-info"></i>
+                                <span class="bg-info"></span>
+                            </div>
+                            <div class="facility-text bg-info">
+                                <h3 class="text-info mb-3">Positive Learning</h3>
+                                <p class="mb-0"></p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Carousel End -->
+        <!-- Facilities End -->
 
 
-    <!-- Service Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item text-center pt-3">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-baby text-primary mb-4"></i>
-                            <h5 class="mb-3">Creche</h5>
-                            <p> Our preschooler's class is warm and welcoming with eligible preschool certified educator handling this session. You will love it</p>
+        <!-- About Start -->
+        <div class="container-xxl py-5" id="about">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="mb-4">About Us</h1>
+                        <p>We educate students to the highest level of academic excellence that expand their potentials to becoming very productive, responsible, ethical and creative future leaders.</p>
+                        <p class="mb-4"> We are simply eradicating ignorance and moral decadence through quality Education.<p>
+                        <div class="row g-4 align-items-center">
+                            <div class="col-sm-6">
+                                <a class="btn btn-primary rounded-pill py-3 px-5" href="https://wa.link/o9ouaj">Join us now</a>
+                            </div>
+                           
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item text-center pt-3">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-pen text-primary mb-4"></i>
-                            <h5 class="mb-3">Nursery </h5>
-                            <p>They are regarded to as discovery class, cause here we go future in learning more about our immediate environment and we add beauty to life.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item text-center pt-3">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-book text-primary mb-4"></i>
-                            <h5 class="mb-3">Basic School</h5>
-                            <p>This is the bed rock for every other higher learning and we are ever ready to make sure the foundation is solid and ever ready to withstand test of times.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="service-item text-center pt-3">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
-                            <h5 class="mb-3">College</h5>
-                            <p>In preparation for real life events, we guide them and give all support within our reach to see to it that the sky is the starting point.</p>
+                    <div class="col-lg-6 about-img wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <img class="img-fluid w-75 rounded-circle bg-light p-3" src="img/ii/20.jpg" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Service End -->
+        <!-- About End -->
 
 
-    <!-- About Start -->
-    <div class="container-xxl py-5" id="about">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/logo.png" alt="" style="object-fit: cover;">
+        <!-- Classes Start -->
+        <div class="container-xxl py-5 mb-4" id="classes">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h1 class="mb-3">Our Classes</h1>
+                    <p></p>
+                </div>
+
+                <div class="container">
+                    <div class="row g-4">
+                        <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="service-item text-center pt-3">
+                                <div class="p-4">
+                                    <i class="fa fa-3x fa-baby text-primary mb-4"></i>
+                                    <h5 class="mb-3">Creche</h5>
+                                    <p> Our preschooler's class is warm and welcoming with eligible preschool certified educator handling this session. You will love it</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="service-item text-center pt-3">
+                                <div class="p-4">
+                                    <i class="fa fa-3x fa-pen text-primary mb-4"></i>
+                                    <h5 class="mb-3">Nursery </h5>
+                                    <p>They are regarded to as discovery class, cause here we go future in learning more about our immediate environment and we add beauty to life.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="service-item text-center pt-3">
+                                <div class="p-4">
+                                    <i class="fa fa-3x fa-book text-primary mb-4"></i>
+                                    <h5 class="mb-3">Basic School</h5>
+                                    <p>This is the bed rock for every other higher learning and we are ever ready to make sure the foundation is solid and ever ready to withstand test of times.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="service-item text-center pt-3">
+                                <div class="p-4">
+                                    <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                                    <h5 class="mb-3">College</h5>
+                                    <p>In preparation for real life events, we guide them and give all support within our reach to see to it that the sky is the starting point.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
-                    <h1 class="mb-4">Who we are</h1>
-                    <p class="mb-4">We educate students to the highest level of academic excellence that expand their potentials to becoming very productive, responsible, ethical and creative future leaders.</p>
-                    <p class="mb-4">We are simply eradicating ignorance and moral decadence through quality Education.</p>
-                    
-                    <a class="btn btn-primary py-3 px-5 mt-2" href="https://wa.link/0979t3">Enroll now</a>
-                </div>
+
+
+              
             </div>
         </div>
-    </div>
-    <!-- About End -->
+        <!-- Classes End -->
 
-
-    <!-- Categories Start -->
-    <div class="container-xxl py-5 category" id="gallery">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Picture Speaks</h6>
-                <h1 class="mb-5">Gallery</h1>
-            </div>
-            <div class="row g-3">
-                <div class="col-lg-12 col-md-6">
-                    <div class="row g-3">
-                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.1s">
-                            <a class="position-relative d-block overflow-hidden" href="">
-                                <img class="img-fluid" src="img/bg1.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.1s">
-                            <a class="position-relative d-block overflow-hidden" href="">
-                                <img class="img-fluid" src="img/bg.jpg" alt="">
-                            </a>
-                        </div>
-                     
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Categories Start -->
-
-    
-    <!-- Contact Start -->
-    <div class="container-xxl py-5" id="contact">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Contact Us</h6>
-                <h1 class="mb-5">Contact For Any Info</h1>
-            </div>
-            <div class="row justify-content-center">
-               
-                <div class="col-lg-4 justify-content-center col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-                   
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-white mb-3">New Unique Academy</h4>
+                        <p>We educate students to the highest level of academic excellence that expand their potentials to becoming very productive, responsible, ethical and creative future leaders.</p>
                         
-                            <div class="col-12 justify-content-center">
-                                 <a href="https://wa.link/0979t3"><button class="btn btn-primary w-100 py-3" type="submit">Send Message</button></a>  
-                            </div>
-                        </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Contact End -->
-
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Quick Link</h4>
-                    <a class="btn btn-link" href="#about">About Us</a>
-                    <a class="btn btn-link" href="#contact">Contact</a>
-                    <a class="btn btn-link" target="_blank" href="https://admin.newuniqueacademy.com">Admin Portal</a>
-                    <a class="btn btn-link" target="_blank" href="https://staff.newuniqueacademy.com">Staff Portal</a>
-                    <a class="btn btn-link" target="_blank" href="https://student.newuniqueacademy.com">Student Portal</a>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <h4 class="text-white mb-3">Contact</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Zone C, Fiyinfolu Estate off Fabian Hotel, Ado Ekiti</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>08032296504, 08035164618, 08110475259</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@newuniqueacademy.com</p>
-                   
-                </div>
-               
-            </div>
-        </div>
-        <div class="container">
-            <div class="copyright">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">New Unique Academy</a> | 
-
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Developed by <a class="border-bottom" href="https://hynitr.com">Hynitr</a><br><br>
                     </div>
+                    <div class="col-lg-6 col-md-6">
+                        <h3 class="text-white mb-4">Get In Touch</h3>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Zone C, Fiyinfolu Estate off Fabian Hotel, Ado Ekiti</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>08032296504, 08035164618, 08110475259</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@newuniqueacademy.com</p>
+                        
+                    </div>
+                    
+                        <div class="col-lg-3 col-md-6">
+                            <h4 class="text-white mb-4">Quick Link</h4>
+                            <a class="btn btn-link text-white-50" href="#about">About Us</a>
+                            <a class="btn btn-link text-white-50" href="#contact">Contact</a>
+                            <a class="btn btn-link text-white-50" target="_blank" href="https://admin.newuniqueacademy.com">Admin Portal</a>
+                            <a class="btn btn-link text-white-50" target="_blank" href="https://staff.newuniqueacademy.com">Staff Portal</a>
+                            <a class="btn btn-link text-white-50" target="_blank" href="https://student.newuniqueacademy.com">Student Portal</a>
+                        </div>
+                        
+                    
                    
                 </div>
             </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom">New Unique Academy</a> | 
+
+                            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                            Developed by <a class="border-bottom" href="https://hynitr.com">Hynitr</a><br><br>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
         </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
     </div>
-    <!-- Footer End -->
-
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
-
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
